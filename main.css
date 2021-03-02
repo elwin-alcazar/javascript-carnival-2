@@ -1,13 +1,13 @@
 body {
-	font-family: 'Rye', cursive;
-	background-color: LightPink;
+  font-family: "Rye", cursive;
+  background-color: LightPink;
 }
 
-h1 { 
-	margin-top: 100px;
-	margin-bottom: 50px;
-	font-size: 3em;
-	text-align: center;
+h1 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 3em;
+  text-align: center;
 }
 
 table {
@@ -22,15 +22,15 @@ td {
   width: 75px;
 }
 
-.container{
-    text-align: center;
+.container {
+  text-align: center;
 }
 
-.inflate-an-image{
-    display: inline-block;
-    width: 400px;
-    height: 400px;
-    margin: 5px;
+.inflate-an-image {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
 }
 
 .dress-a-parent {
@@ -49,20 +49,26 @@ td {
   left: 0px;
 }
 
- #head {
-	z-index: 2
- }
- 
- #body {
-	z-index: 0
- }
+#head {
+  z-index: 2;
+}
 
-  #shoes {
-	z-index: 1
- }
+#body {
+  z-index: 0;
+}
+
+#shoes {
+  z-index: 1;
+}
 
 .ferris-wheel-car {
-	width: 50px;
-	height: 50px;
-	background-color: red;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+#resetButton {
+  margin-top: 40px;
+  position: absolute;
+  left: 45%;
 }

@@ -9,19 +9,32 @@
   <title>JS CARNIVAL: Inflate The Unicorn!</title>
   <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../main.css">
+  <link rel="icon" href="./images/unicorn-3.png">
+  
 
 </head>
 
 <body>
-
+	<audio id="carousel" loop><source src="audio/carousel.mp3"></audio>
+	<audio id="success"><source src="audio/success.wav"></audio>
+	<audio id="smallsuccess"><source src="audio/smallsuccess.wav"></audio>
+	<audio id="balloon"><source src="audio/balloon.mp3"></audio>
 	<h1> JS CARNIVAL: Inflate The Unicorn! </h1>
-
 	<div class="container">
-		<img class="inflate-an-image" src="./images/waiting-for-photo.png">
-		<img class="inflate-an-image" src="./images/waiting-for-photo.png">
-		<img class="inflate-an-image" src="./images/waiting-for-photo.png">
+		<div id = "unicorn0" style="display:inline-block">
+			<img class="inflate-an-image" src="./images/unicorn-0.png" onclick="playAudio('balloon'); changeImage(0, imageList); ">
+			<figcaption class = "caption"></figcaption>
+		</div>
+		<div id = "unicorn1" style="display:inline-block">
+			<img  class="inflate-an-image" src="./images/unicorn-0.png" onclick="playAudio('balloon'); changeImage(1, imageList); ">
+			<figcaption class = "caption"></figcaption>
+		</div>
+		<div id = "unicorn2" style="display:inline-block">
+			<img class="inflate-an-image" src="./images/unicorn-0.png" onclick="playAudio('balloon'); changeImage(2, imageList); ">
+			<figcaption class = "caption"></figcaption>
+		</div>
 	</div>
-
+	<div id ="resetButton"><button onClick=window.location.reload();>New Game</button></div>
 <script src="inflate-the-unicorn.js"></script>
 </body>
 
