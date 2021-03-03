@@ -9,50 +9,57 @@
 	  <title>JAVASCRIPT CARNIVAL: Whack-a-Mole!</title>
 	  <link href="https://fonts.googleapis.com/css?family=Rye&display=swap" rel="stylesheet">
 	  <link rel="stylesheet" href="../main.css">
+	  <link rel="icon" href="mole.PNG">
 
 	</head>
 
 	<body>
 		<audio id="whack"><source src="whack-audio.wav"></audio>
+		<audio id="background"><source src="audio/background.mp3"></audio>
+		<audio id="highscore"><source src="audio/highscore.wav"></audio>
+		<audio id="fail"><source src="audio/fail.wav"></audio>	
 		<h1> JAVASCRIPT CARNIVAL: Whack-a-Mole! </h1>
-
-		<table>
+		<div><p id="countdown">Whack as many moles as you can in 10 seconds! Press the button below to start a new game</p></div>
+		<table id = "board">
 		  <tr>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 0);"></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 1);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 2);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 3);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 4);" ></td>
 		  </tr>
 		  <tr>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 5);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 6);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 7);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 8);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 9);" ></td>
 		  </tr>
 		  <tr>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 10);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 11);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 12);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 13);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 14);" ></td>
 		  </tr>
 		  <tr>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 15);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 16);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 17);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 18);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 19);" ></td>
 		  </tr>
 		  <tr>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
-			<td>  </td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 20);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 21);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 22);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 23);" ></td>
+			<td> <img class = 'cell' src = "" onclick="whackMole(moleBoard, 24);" ></td>
 		  </tr>
 		</table>
+		<div id ="startButton"><button onclick="startGame();">New Game</button></div>
+		<div id = "counter"><p></p></div>
+		<div id = "topscore"><p></p></div>
 
 		<script src="whack-a-mole.js"></script>
 
