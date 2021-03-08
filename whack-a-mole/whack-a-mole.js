@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   // -    -   -   -   -  //
  // JAVASCRIPT CARNIVAL //
 // -    -   -   -   -  //
@@ -112,3 +113,11 @@ var downloadTimer = setInterval(function(){
   timeleft -= 1;
 }, 1000);
 }
+||||||| empty tree
+=======
+  // -    -   -   -   -  //
+ // JAVASCRIPT CARNIVAL //
+// -    -   -   -   -  //
+
+console.log("Whack-a-Mole!")
+>>>>>>> 470659f1f1f80aedd015bf18c5222922caaf3176

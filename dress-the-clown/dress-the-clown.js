@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   // -    -   -   -   -  //
  // JAVASCRIPT CARNIVAL //
 // -    -   -   -   -  //
@@ -62,3 +63,11 @@ document.addEventListener('keydown', function(e) {
 });
 
 
+||||||| empty tree
+=======
+  // -    -   -   -   -  //
+ // JAVASCRIPT CARNIVAL //
+// -    -   -   -   -  //
+
+console.log("Dress The Clown!")
+>>>>>>> 470659f1f1f80aedd015bf18c5222922caaf3176

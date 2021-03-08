@@ -1,3 +1,4 @@
+<<<<<<< HEAD
   // -    -   -   -   -  //
  // JAVASCRIPT CARNIVAL //
 // -    -   -   -   -  //
@@ -57,3 +58,11 @@ function playAudio(id) {
 function AudioPause(id) {
   document.getElementById(id).pause()
 }
+||||||| empty tree
+=======
+  // -    -   -   -   -  //
+ // JAVASCRIPT CARNIVAL //
+// -    -   -   -   -  //
+
+console.log("Inflate The Unicorn!")
+>>>>>>> 470659f1f1f80aedd015bf18c5222922caaf3176
